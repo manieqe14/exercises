@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 public class PhoneDir {
 
     public static void main(String[] args) throws IOException {
-        //System.out.println(phone(" 133, Green, Rd. <E Kustur> NY-56423 ;+1-541-914-3010!\\n<Anastasia> +48-421-674-8974 Via Quirinal Roma\\n", "1-541-914-3010"));
         String data = new String(Files.readAllBytes(Paths.get("src/main/java/PhoneDirectory/data.txt")));
         String data2 = new String(Files.readAllBytes(Paths.get("src/main/java/PhoneDirectory/data2.txt")));
 
